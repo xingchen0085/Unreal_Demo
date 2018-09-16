@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+	<component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+	<component name="CidrRootsConfiguration">
+		<excludeRoots>
+			<file path="$PROJECT_DIR$/Binaries" />
+			<file path="$PROJECT_DIR$/Build" />
+			<file path="$PROJECT_DIR$/Content" />
+			<file path="$PROJECT_DIR$/DataTables" />
+			<file path="$PROJECT_DIR$/DerivedDataCache" />
+			<file path="$PROJECT_DIR$/FeaturePacks" />
+			<file path="$PROJECT_DIR$/Intermediate" />
+			<file path="$PROJECT_DIR$/LocalBuilds" />
+			<file path="$PROJECT_DIR$/Samples" />
+			<file path="$PROJECT_DIR$/Saved" />
+			<file path="$PROJECT_DIR$/Templates" />
+
+			<file path="$PROJECT_DIR$/Engine/Binaries" />
+			<file path="$PROJECT_DIR$/Engine/Build" />
+			<file path="$PROJECT_DIR$/Engine/Content" />
+			<file path="$PROJECT_DIR$/Engine/DerivedDataCache" />
+			<file path="$PROJECT_DIR$/Engine/Documentation" />
+			<file path="$PROJECT_DIR$/Engine/Extras" />
+			<file path="$PROJECT_DIR$/Engine/Intermediate" />
+			<file path="$PROJECT_DIR$/Engine/Programs" />
+			<file path="$PROJECT_DIR$/Engine/Saved" />
+		</excludeRoots>
+	</component>
+</project>

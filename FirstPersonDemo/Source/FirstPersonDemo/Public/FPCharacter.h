@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "FPCharacter.generated.h"
 
+static const FName SkeletalSoketName = "AI_Soket";//节点
+
 UCLASS()
 class FIRSTPERSONDEMO_API AFPCharacter : public ACharacter
 {
@@ -45,7 +47,13 @@ protected:
 
 	//第一人称相机
 	UPROPERTY(VisibleDefaultsOnly, Category = "Camera")
-	class UCameraComponent * FristPersonCamera;
+	class UCameraComponent * FirstPersonCamera;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
+	class USkeletalMeshComponent * SkeletalMesh;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
+	class USkeletalMeshComponent * GunMesh;
 
 public:	
 	// Called every frame
